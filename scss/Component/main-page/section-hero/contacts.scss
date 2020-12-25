@@ -1,0 +1,76 @@
+.contacts {
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+
+  &-phone {
+    font-size: 2.6rem;
+    text-align: left;
+  }
+
+  &-dropdown__title {
+    font-size: 1.3rem;
+    text-decoration: underline;
+    position: relative;
+    top: 0;
+    right: 0;
+    transition: 0.3s linear;
+
+    &:hover {
+      color: #ff5400;
+    }
+  
+    &:hover 
+    .contacts-dropdown__menu {
+      right: 0;
+      opacity: 1;
+    }
+  }
+
+  &-dropdown__menu {
+    position: absolute;
+    background: #d1d1d1;
+    width: 16.3rem;
+    height: 7.7rem;
+    padding: 1rem;
+    color: #111111;
+    top: 45%;
+    right: -999.9rem;
+    margin-top: 2.5rem;
+    transition: opacity .4s;
+    border-radius: 0.7rem;
+
+    
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 88%;
+      border: 15px solid transparent;
+      right: 3.7rem;
+      opacity: 1;
+      border-left-color: #d1d1d1;
+      border-right-width: 0;
+      transform: rotate(270deg);
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 100%;
+      right: 0;
+      display: block;
+      width: 100%;
+      height: 25%;
+    }
+  }
+
+  &-dropdown__week {
+    font-weight: 700;
+  }
+
+  &-dropdown__pause {
+    font-weight: 600;
+  }
+}

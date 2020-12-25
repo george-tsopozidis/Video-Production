@@ -1,0 +1,18 @@
+.separator {
+  position: relative;
+  padding: 8% 0;
+  background: #000000 url("../../../../images/separator.png") right bottom / cover no-repeat;
+  opacity: .9;
+
+  &-desc {
+    color: #ffffff;
+    font-size: 4.8rem;
+    font-weight: 700;
+    text-align: left;
+    max-width: 40rem;
+
+    span {
+      color: #ff5400;
+    }
+  }
+}

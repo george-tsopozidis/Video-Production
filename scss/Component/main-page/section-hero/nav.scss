@@ -1,0 +1,20 @@
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  &__item {
+    font-size: 1.4rem;
+    text-align: left;
+    margin-right: 5.5rem;
+    transition: .3s linear;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      color: #ff3c00;
+    }
+  }
+}

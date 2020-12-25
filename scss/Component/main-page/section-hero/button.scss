@@ -1,0 +1,18 @@
+.hero-btn {
+  background-color: #ff3900;
+  border-radius: 36px;
+  padding: 2.2rem 5rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: .3s linear;
+
+  &:focus {
+    outline: none;
+    border-color: #ffffff;
+  }
+
+  &:hover {
+    background-color: rgba(#ff3900, 0.7);
+  }
+}
