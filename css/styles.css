@@ -308,7 +308,7 @@ svg { display: block; width: 100%; height: auto; }
 .reviews-text { font-size: 1.6rem; text-align: left; color: #818181; margin-bottom: 5.4rem; }
 .reviews-date { font-size: 1.4rem; text-align: left; }
 
-.separator { position: relative; padding: 8% 0; background: #000000 url("../../../../images/separator.png") right bottom/cover no-repeat; opacity: .9; }
+.separator { position: relative; padding: 8% 0; background: #000000 url("../images/separator.png") right bottom/cover no-repeat; opacity: .9; }
 .separator-desc { color: #ffffff; font-size: 4.8rem; font-weight: 700; text-align: left; max-width: 40rem; }
 .separator-desc span { color: #ff5400; }
 
